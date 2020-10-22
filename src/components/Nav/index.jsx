@@ -22,17 +22,17 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/About_Me!">About</Link>
+            <Link to="/About_Me">About</Link>
           </li>
         </ul>
       </Styles.Nav>
 
       <Switch>
-      <Route exact path="../Home">
+      <Route exact path="/">
         <Home/>
       </Route>
 
-      <Route exact path="../About">
+      <Route exact path="/About_Me">
         <About/>
       </Route>
       </Switch>
