@@ -9,7 +9,7 @@ export default {
     width: 95%;
     margin-top: 2em;
     background: #f1c40f;
-    color: #2c3e50;
+    color: #78c5e3;
     display: flex;
     align-items: center;
     justify-content: center;

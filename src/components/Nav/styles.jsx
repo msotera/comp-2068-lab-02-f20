@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export default {
   Nav: styled.nav`
-    background: #2c3e50;
+    background: #383636;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 80px;
 
     ul {
       display: flex;
@@ -16,12 +16,13 @@ export default {
         list-style: none;
 
         a {
-          color: #f1c40f;
+          color: #df5200;
           text-decoration: none;
           padding: 1em;
 
           &:hover {
-            color: #f39c12;
+            color: #008afc;
+            text-decoration: line-through;
           }
         }
       }
